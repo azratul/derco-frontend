@@ -1,0 +1,36 @@
+.Posts h3{
+    color: white;
+}
+
+.Items {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    grid-row-gap: 1.5em;
+    display: grid;
+}
+
+.Card {
+    text-decoration: none;
+    box-shadow: 8px 14px 38px rgb(39 44 49 / 6%), 1px 3px 8px rgb(39 44 49 / 3%);
+    border-radius: 5px;
+    border: 2px solid cadetblue;
+    margin: 0 0 20px 0;
+    display: block;
+    animation-duration: 4s;
+    animation-name: fade;
+    background-color: aliceblue;
+}
+
+.Card h2 {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Card p {
+    padding: 25px;
+    height: 65px;
+    text-align: center;
+}
